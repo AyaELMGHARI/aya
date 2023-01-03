@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+}
+
+img{
+    width: 80%;
+    height: 80%;
+    border-radius: inherit;
+    background: #008D36;
+
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    position: relative;
+    width: 600px;
+    right: -30px;
+    border-radius: 2%;
+    padding-bottom: 20px;
+   
+    opacity: .8;
+}
+.clt{
+    opacity: 1;
+}
+
+.right{
+    position: relative;
+    width: 600px;
+    height:540px ;
+    z-index: -1;
+    left:-30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+    background: #008D36;
+   
+
+}
+

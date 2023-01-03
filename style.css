@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    background: whitesmoke;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1.5px solid rgb(209, 205, 205);
+    height: 7%;
+}
+
+.navlinks{
+    margin-left: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+
+.navlink a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    display: block;
+    padding: 5px;
+}
